@@ -1,0 +1,305 @@
+body {
+  font-size: 16px;
+  color: #fff;
+  background-color: gray;
+  font-family: 'Oxygen', sans-serif;
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+ }
+
+
+/** HEADER **/
+#header-nav {
+  background-color: #9DA1DD;
+  border-radius: 0;
+  border: 0;
+}
+
+.navbar-brand {
+  padding-top: 15px;
+}
+
+.navbar-brand h1 { /* Restaurant name */
+  font-family: 'Lora', serif;
+  color: #D9341E;
+  /*font-size: 1.5em;*/
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+  float: right;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+#nav-list {
+  margin-top: 10px;
+}
+#nav-list a {
+  color: #D9341E;
+  text-align: center;
+}
+#nav-list a:hover {
+  background: #A785C0;
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #A785C0;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -20px;
+}
+/* END HEADER */
+
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+
+}
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+  
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+ }
+  .navbar-brand h1 { /* Restaurant name */
+    padding-top: 10px;
+    font-size: 5vw; /* 1vw = 1% of viewport width */
+  }
+  
+  #collapsable-nav a { /* Collapsed nav menu text */
+    font-size: 1.2em;
+  }
+  #collapsable-nav a span { /* Collapsed nav menu glyph */
+    font-size: 1em;
+    margin-right: 5px;
+  }
+
+  
+  /* End Header */
+
+  * {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+ }
+
+h2 {
+  margin-bottom: 1px;
+  color: maroon;
+  text-align: center;
+}
+
+
+
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+  #box1 {
+    
+  background-color: #A785C0;
+  padding: 50px;
+  border: 5px solid black;
+  margin: 40px;
+  width: 350px;
+  height: 300px;
+  font-weight: bold;
+  font-family: Helvetica;
+  float: left;
+  position: relative;
+  overflow: auto;
+  } 
+
+   #box2 {
+    
+  background-color: #A785C0;
+  padding: 50px;
+  border: 5px solid black;
+  margin: 40px;
+  width: 350px;
+  height: 300px;
+  font-weight: bold;
+  font-family: Helvetica;
+  float: left;
+  position: relative;
+  overflow: auto;
+  } 
+
+   #box3 {
+    
+  background-color: #A785C0;
+  padding: 50px;
+  border: 5px solid black;
+  margin: 40px;
+  width: 350px;
+  height: 300px;
+  font-weight: bold;
+  font-family: Helvetica;
+  float: left;
+  position: relative;
+  overflow: auto;
+  } 
+
+}
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+  #box1 {
+    
+  background-color: #A785C0;
+  padding: 50px;
+  border: 5px solid black;
+  margin: 40px;
+  width: 300px;
+  height: 250px;
+  font-weight: bold;
+  font-family: Helvetica;
+  float: left;
+  position: relative;
+  overflow: auto;
+  } 
+
+  #box2 {
+    
+  background-color: #A785C0;
+  padding: 50px;
+  border: 5px solid black;
+  margin: 40px;
+  width: 300px;
+  height: 250px;
+  font-weight: bold;
+  font-family: Helvetica;
+  float: left;
+  position: relative;
+  overflow: auto;
+  } 
+
+  #box3 {
+    
+  background-color: #A785C0;
+  padding: 50px;
+  border: 5px solid black;
+  margin: 40px;
+  width: 84%;
+  height: 250px;
+  font-weight: bold;
+  font-family: Helvetica;
+  float: left;
+  position: relative;
+  overflow: auto;
+  } 
+  
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  #box1 {
+    
+  background-color: #A785C0;
+  padding: 50px;
+  border: 5px solid black;
+  margin: 40px;
+  width: 300px;
+  height: 200px;
+  font-weight: bold;
+  font-family: Helvetica;
+  float: left;
+  position: relative;
+  overflow: auto;
+  } 
+
+#box2 {
+    
+  background-color: #A785C0;
+  padding: 50px;
+  border: 5px solid black;
+  margin: 40px;
+  width: 300px;
+  height: 200px;
+  font-weight: bold;
+  font-family: Helvetica;
+  float: left;
+  position: relative;
+  overflow: auto;
+  } 
+#box3 {
+    
+  background-color: #A785C0;
+  padding: 50px;
+  border: 5px solid black;
+  margin: 40px;
+  width: 300px;
+  height: 200px;
+  font-weight: bold;
+  font-family: Helvetica;
+  float: left;
+  position: relative;
+  overflow: auto;
+  } 
+
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+  #box1 {
+    
+  background-color: #A785C0;
+  padding: 50px;
+  border: 5px solid black;
+  margin: 40px;
+  width: 90%;
+  height: 150px;
+  font-weight: bold;
+  font-family: Helvetica;
+  float: left;
+  position: relative;
+  overflow: auto;
+  } 
+
+  #box2 {
+    
+  background-color: #A785C0;
+  padding: 50px;
+  border: 5px solid black;
+  margin: 40px;
+  width: 90%;
+  height: 150px;
+  font-weight: bold;
+  font-family: Helvetica;
+  float: left;
+  position: relative;
+  overflow: auto;
+  } 
+  #box3 {
+    
+  background-color: #A785C0;
+  padding: 50px;
+  border: 5px solid black;
+  margin: 40px;
+  width: 90%;
+  height: 150px;
+  font-weight: bold;
+  font-family: Helvetica;
+  float: left;
+  position: relative;
+  overflow: auto;
+  } 
+ }
+ 
+ 
